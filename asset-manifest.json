@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/safeer_portfolio/static/css/main.932e8173.css",
+    "main.css": "/safeer_portfolio/static/css/main.4f0588b8.css",
     "main.js": "/safeer_portfolio/static/js/main.8a99214c.js",
     "index.html": "/safeer_portfolio/index.html",
-    "main.932e8173.css.map": "/safeer_portfolio/static/css/main.932e8173.css.map",
+    "main.4f0588b8.css.map": "/safeer_portfolio/static/css/main.4f0588b8.css.map",
     "main.8a99214c.js.map": "/safeer_portfolio/static/js/main.8a99214c.js.map"
   },
   "entrypoints": [
-    "static/css/main.932e8173.css",
+    "static/css/main.4f0588b8.css",
     "static/js/main.8a99214c.js"
   ]
 }
