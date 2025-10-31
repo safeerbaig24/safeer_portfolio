@@ -14,15 +14,39 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: center;
-  background-color: rgba(23, 42, 69, 0.3);
-  border-radius: 8px;
+  background: rgba(23, 42, 69, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(100, 255, 218, 0.1);
+  border-radius: 16px;
   padding: 30px;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(100, 255, 218, 0.05) 0%, rgba(78, 201, 176, 0.05) 100%);
+  opacity: 0;
+  transition: opacity 0.4s;
+  z-index: 0;
+}
+
+.project-card:hover::before {
+  opacity: 1;
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  background-color: rgba(23, 42, 69, 0.5);
+  transform: translateY(-10px);
+  background: rgba(23, 42, 69, 0.5);
+  border-color: rgba(100, 255, 218, 0.3);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 30px rgba(100, 255, 218, 0.1);
 }
 
 .project-card:nth-child(even) {
@@ -35,20 +59,22 @@
 
 .project-image {
   position: relative;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   height: 300px;
+  border: 1px solid rgba(100, 255, 218, 0.1);
+  z-index: 1;
 }
 
 .project-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .project-card:hover .project-image img {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .project-overlay {
@@ -57,13 +83,15 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(10, 25, 47, 0.9);
+  background: linear-gradient(135deg, rgba(10, 25, 47, 0.95) 0%, rgba(23, 42, 69, 0.95) 100%);
+  backdrop-filter: blur(5px);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.4s ease;
+  z-index: 2;
 }
 
 .project-card:hover .project-overlay {
@@ -73,12 +101,23 @@
 .project-overlay a {
   color: #ccd6f6;
   font-size: 30px;
-  transition: all 0.3s ease;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(100, 255, 218, 0.1);
+  border: 1px solid rgba(100, 255, 218, 0.3);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .project-overlay a:hover {
   color: #64ffda;
-  transform: scale(1.2);
+  transform: scale(1.2) rotate(5deg);
+  background: rgba(100, 255, 218, 0.2);
+  border-color: #64ffda;
+  box-shadow: 0 10px 30px rgba(100, 255, 218, 0.3);
 }
 
 .project-content {
@@ -86,10 +125,15 @@
 }
 
 .project-title {
-  color: #64ffda;
+  background: linear-gradient(135deg, #64ffda 0%, #4ec9b0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 15px;
+  z-index: 1;
+  position: relative;
 }
 
 .project-description {
@@ -97,9 +141,13 @@
   line-height: 1.8;
   margin-bottom: 20px;
   font-size: 16px;
-  background-color: rgba(10, 25, 47, 0.5);
+  background: rgba(10, 25, 47, 0.4);
+  backdrop-filter: blur(5px);
   padding: 20px;
-  border-radius: 4px;
+  border-radius: 8px;
+  border: 1px solid rgba(100, 255, 218, 0.1);
+  z-index: 1;
+  position: relative;
 }
 
 .project-tech {

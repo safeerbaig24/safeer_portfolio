@@ -2,6 +2,19 @@
   padding: 40px 50px;
   border-top: 1px solid rgba(100, 255, 218, 0.1);
   text-align: center;
+  background: rgba(10, 25, 47, 0.5);
+  backdrop-filter: blur(10px);
+  position: relative;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #64ffda, transparent);
 }
 
 .footer-content {
@@ -11,6 +24,14 @@
 
 .footer-content p {
   margin: 5px 0;
+}
+
+.footer-content p:first-child {
+  background: linear-gradient(135deg, #8892b0 0%, #64ffda 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
