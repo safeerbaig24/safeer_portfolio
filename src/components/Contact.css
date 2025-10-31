@@ -1,0 +1,118 @@
+.contact {
+  padding: 100px 50px;
+  min-height: 100vh;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-top: 60px;
+  align-items: start;
+}
+
+.contact-text {
+  color: #8892b0;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.contact-social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-social a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #ccd6f6;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.contact-social a:hover {
+  color: #64ffda;
+  background-color: rgba(100, 255, 218, 0.1);
+  transform: translateX(10px);
+}
+
+.contact-social a svg {
+  font-size: 24px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 15px;
+  background-color: rgba(23, 42, 69, 0.5);
+  border: 1px solid rgba(100, 255, 218, 0.2);
+  border-radius: 4px;
+  color: #ccd6f6;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #64ffda;
+  background-color: rgba(23, 42, 69, 0.8);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.submit-btn {
+  padding: 15px 40px;
+  background-color: transparent;
+  color: #64ffda;
+  border: 2px solid #64ffda;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+  font-family: 'Poppins', sans-serif;
+}
+
+.submit-btn:hover {
+  background-color: rgba(100, 255, 218, 0.1);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 968px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 80px 20px;
+  }
+
+  .contact-text {
+    font-size: 16px;
+  }
+}
+
