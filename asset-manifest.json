@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-developer-portfolio/static/css/main.932e8173.css",
-    "main.js": "/react-developer-portfolio/static/js/main.b5e799bc.js",
-    "index.html": "/react-developer-portfolio/index.html",
-    "main.932e8173.css.map": "/react-developer-portfolio/static/css/main.932e8173.css.map",
-    "main.b5e799bc.js.map": "/react-developer-portfolio/static/js/main.b5e799bc.js.map"
+    "main.css": "/safeer_portfolio/static/css/main.932e8173.css",
+    "main.js": "/safeer_portfolio/static/js/main.8a99214c.js",
+    "index.html": "/safeer_portfolio/index.html",
+    "main.932e8173.css.map": "/safeer_portfolio/static/css/main.932e8173.css.map",
+    "main.8a99214c.js.map": "/safeer_portfolio/static/js/main.8a99214c.js.map"
   },
   "entrypoints": [
     "static/css/main.932e8173.css",
-    "static/js/main.b5e799bc.js"
+    "static/js/main.8a99214c.js"
   ]
 }
