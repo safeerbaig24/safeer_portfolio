@@ -25,8 +25,8 @@ A modern, responsive portfolio website built with React to showcase my skills, p
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/safeerbaig/react-developer-portfolio.git
-cd react-developer-portfolio
+git clone https://github.com/safeerbaig24/safeer_portfolio.git
+cd safeer_portfolio
 ```
 
 2. Install dependencies:
@@ -49,21 +49,17 @@ npm start
 
 ### Steps:
 
-1. **Create a GitHub repository** (if you haven't already):
-   - Go to GitHub and create a new repository
-   - Name it `react-developer-portfolio` (or your preferred name)
+1. **Your repository is already created**: [https://github.com/safeerbaig24/safeer_portfolio](https://github.com/safeerbaig24/safeer_portfolio)
 
-2. **Update the homepage in package.json**:
-   - The homepage is already set to: `https://safeerbaig.github.io/react-developer-portfolio`
-   - Update it with your GitHub username if different
+2. **The homepage in package.json is configured**: `https://safeerbaig24.github.io/safeer_portfolio`
 
-3. **Initialize Git and push to GitHub**:
+3. **If you haven't pushed your code yet, initialize Git and push to GitHub**:
 ```bash
 git init
 git add .
-git commit -m "Initial commit"
+git commit -m "Initial commit: React Developer Portfolio"
 git branch -M main
-git remote add origin https://github.com/safeerbaig/react-developer-portfolio.git
+git remote add origin https://github.com/safeerbaig24/safeer_portfolio.git
 git push -u origin main
 ```
 
@@ -73,14 +69,14 @@ npm run deploy
 ```
 
 5. **Enable GitHub Pages** (if not auto-enabled):
-   - Go to your repository on GitHub
+   - Go to your repository on GitHub: [https://github.com/safeerbaig24/safeer_portfolio](https://github.com/safeerbaig24/safeer_portfolio)
    - Click on "Settings"
    - Scroll to "Pages" section
    - Select "gh-pages" branch as the source
    - Click Save
 
 6. **Access your deployed site**:
-   - Your portfolio will be live at: `https://safeerbaig.github.io/react-developer-portfolio`
+   - Your portfolio will be live at: [https://safeerbaig24.github.io/safeer_portfolio](https://safeerbaig24.github.io/safeer_portfolio)
    - It may take a few minutes for the changes to propagate
 
 ## 📝 Customization
@@ -110,7 +106,8 @@ This project is open source and available under the MIT License.
 
 **Safeer Baig**
 - LinkedIn: [https://www.linkedin.com/in/safeer-baig-84230b192/](https://www.linkedin.com/in/safeer-baig-84230b192/)
-- GitHub: [@safeerbaig](https://github.com/safeerbaig)
+- GitHub: [@safeerbaig24](https://github.com/safeerbaig24)
+- Portfolio: [https://safeerbaig24.github.io/safeer_portfolio](https://safeerbaig24.github.io/safeer_portfolio)
 
 ---
 

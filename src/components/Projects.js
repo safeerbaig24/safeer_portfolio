@@ -8,7 +8,7 @@ const Projects = () => {
       title: 'E-Commerce Platform',
       description: 'A full-stack e-commerce application built with React and Node.js. Features include user authentication, product catalog, shopping cart, and payment integration.',
       tech: ['React', 'Node.js', 'MongoDB', 'Express'],
-      github: 'https://github.com',
+      github: 'https://github.com/safeerbaig24',
       demo: 'https://example.com',
       image: 'https://via.placeholder.com/600x400/64ffda/0a192f?text=E-Commerce'
     },
@@ -16,7 +16,7 @@ const Projects = () => {
       title: 'Task Management App',
       description: 'A modern task management application with drag-and-drop functionality, real-time updates, and team collaboration features.',
       tech: ['React', 'Redux', 'Firebase', 'CSS3'],
-      github: 'https://github.com',
+      github: 'https://github.com/safeerbaig24',
       demo: 'https://example.com',
       image: 'https://via.placeholder.com/600x400/64ffda/0a192f?text=Task+Manager'
     },
@@ -24,7 +24,7 @@ const Projects = () => {
       title: 'Weather Dashboard',
       description: 'A beautiful weather dashboard that displays current weather conditions and forecasts using weather APIs with an intuitive UI.',
       tech: ['React', 'API Integration', 'CSS3'],
-      github: 'https://github.com',
+      github: 'https://github.com/safeerbaig24',
       demo: 'https://example.com',
       image: 'https://via.placeholder.com/600x400/64ffda/0a192f?text=Weather'
     }
