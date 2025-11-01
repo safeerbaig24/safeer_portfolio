@@ -5,28 +5,28 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce application built with React and Node.js. Features include user authentication, product catalog, shopping cart, and payment integration.',
+      title: 'LootEdge.com - Gaming Marketplace for Buying & Selling',
+      description: 'Trusted marketplace to buy and sell game accounts, items, and more. . Enjoy instant delivery, secure transactions, and 24/7 support for gamers worldwide at ...',
       tech: ['React', 'Node.js', 'MongoDB', 'Express'],
       github: 'https://github.com/safeerbaig24',
-      demo: 'https://example.com',
-      image: 'https://via.placeholder.com/600x400/64ffda/0a192f?text=E-Commerce'
+      demo: 'https://lootedge.com/',
+      image: 'https://i.postimg.cc/Hscq1tKx/Screenshot-2025-11-01-at-11-26-04-AM.png'
     },
     {
-      title: 'Task Management App',
+      title: 'PicMe - Connecting CREATIVES and clients worldwide',
       description: 'A modern task management application with drag-and-drop functionality, real-time updates, and team collaboration features.',
       tech: ['React', 'Redux', 'Firebase', 'CSS3'],
       github: 'https://github.com/safeerbaig24',
-      demo: 'https://example.com',
-      image: 'https://via.placeholder.com/600x400/64ffda/0a192f?text=Task+Manager'
+      demo: 'https://thepicmeapp.com/',
+      image: 'https://i.postimg.cc/wj9nRdMx/Screenshot-2025-11-01-at-11-30-21-AM.png'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'A beautiful weather dashboard that displays current weather conditions and forecasts using weather APIs with an intuitive UI.',
+      title: 'Skaly | Your AI Business Coach for Food & Beverage Growth',
+      description: 'Skaly connects your QuickBooks, reviews, and location data to give you clear AI-driven actions — helping you grow sales, cut costs, and run your business with confidence.',
       tech: ['React', 'API Integration', 'CSS3'],
       github: 'https://github.com/safeerbaig24',
-      demo: 'https://example.com',
-      image: 'https://via.placeholder.com/600x400/64ffda/0a192f?text=Weather'
+      demo: 'https://skalyapp.com/',
+      image: 'https://i.postimg.cc/rpjVRJMQ/Screenshot-2025-11-01-at-11-35-43-AM.png'
     }
   ];
 
@@ -34,7 +34,7 @@ const Projects = () => {
     <section id="projects" className="projects">
       <div className="container">
         <div className="section-header">
-          <span className="section-number">03.</span>
+          <span className="section-number">04.</span>
           <h2 className="section-title">Featured Projects</h2>
           <div className="section-line"></div>
         </div>

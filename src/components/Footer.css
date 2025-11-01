@@ -1,8 +1,8 @@
 .footer {
   padding: 40px 50px;
-  border-top: 1px solid rgba(100, 255, 218, 0.1);
+  border-top: 1px solid rgba(16, 185, 129, 0.1);
   text-align: center;
-  background: rgba(10, 25, 47, 0.5);
+  background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(10px);
   position: relative;
 }
@@ -14,7 +14,7 @@
   left: 0;
   width: 100%;
   height: 1px;
-  background: linear-gradient(90deg, transparent, #64ffda, transparent);
+  background: linear-gradient(90deg, transparent, #10b981, transparent);
 }
 
 .footer-content {
@@ -27,7 +27,7 @@
 }
 
 .footer-content p:first-child {
-  background: linear-gradient(135deg, #8892b0 0%, #64ffda 100%);
+  background: linear-gradient(135deg, #8892b0 0%, #10b981 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

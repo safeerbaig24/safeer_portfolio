@@ -34,8 +34,8 @@
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   padding: 15px 20px;
   border-radius: 12px;
-  background: rgba(23, 42, 69, 0.3);
-  border: 1px solid rgba(100, 255, 218, 0.1);
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(16, 185, 129, 0.1);
   backdrop-filter: blur(10px);
   position: relative;
   overflow: hidden;
@@ -48,7 +48,7 @@
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(100, 255, 218, 0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(16, 185, 129, 0.2), transparent);
   transition: left 0.5s;
 }
 
@@ -57,11 +57,11 @@
 }
 
 .contact-social a:hover {
-  color: #64ffda;
-  background: rgba(100, 255, 218, 0.1);
+  color: #10b981;
+  background: rgba(16, 185, 129, 0.1);
   transform: translateX(10px);
-  border-color: rgba(100, 255, 218, 0.3);
-  box-shadow: 0 10px 30px rgba(100, 255, 218, 0.2);
+  border-color: rgba(16, 185, 129, 0.3);
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.2);
 }
 
 .contact-social a svg {
@@ -82,9 +82,9 @@
 .form-group textarea {
   width: 100%;
   padding: 15px 20px;
-  background: rgba(23, 42, 69, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(100, 255, 218, 0.2);
+  border: 1px solid rgba(16, 185, 129, 0.2);
   border-radius: 8px;
   color: #ccd6f6;
   font-size: 16px;
@@ -100,9 +100,9 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #64ffda;
-  background: rgba(23, 42, 69, 0.6);
-  box-shadow: 0 0 20px rgba(100, 255, 218, 0.2);
+  border-color: #10b981;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
   transform: translateY(-2px);
 }
 
@@ -113,8 +113,8 @@
 
 .submit-btn {
   padding: 15px 40px;
-  background: linear-gradient(135deg, #64ffda 0%, #4ec9b0 100%);
-  color: #0a192f;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #000000;
   border: 2px solid transparent;
   border-radius: 8px;
   font-size: 16px;
@@ -134,7 +134,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #4ec9b0 0%, #64ffda 100%);
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%);
   opacity: 0;
   transition: opacity 0.3s;
   z-index: -1;
@@ -146,7 +146,7 @@
 
 .submit-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 15px 40px rgba(100, 255, 218, 0.4);
+  box-shadow: 0 15px 40px rgba(16, 185, 129, 0.4);
 }
 
 @media (max-width: 968px) {
