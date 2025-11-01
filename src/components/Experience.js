@@ -124,13 +124,6 @@ const Experience = () => {
                     </div>
                   </div>
                 </div>
-
-                {/* Date Badge (Desktop) */}
-                <div className="experience-date-badge">
-                  <div className="experience-date-badge-content">
-                    <span>{exp.period}</span>
-                  </div>
-                </div>
               </div>
             ))}
           </div>
