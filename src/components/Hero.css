@@ -135,7 +135,7 @@
 
 .btn-secondary {
   background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-  color: #000000;
+  color: #0f0f0f;
   border: 2px solid transparent;
   position: relative;
   overflow: hidden;

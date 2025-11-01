@@ -12,7 +12,7 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(135deg, #000000 0%, #0a0a0a 50%, #000000 100%);
+  background: linear-gradient(135deg, #0a0a0a 0%, #151515 50%, #0a0a0a 100%);
   background-attachment: fixed;
   color: #ccd6f6;
   overflow-x: hidden;
@@ -49,13 +49,13 @@ code {
 }
 
 ::-webkit-scrollbar-track {
-  background: #000000;
+  background: #0f0f0f;
 }
 
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg, #10b981 0%, #059669 100%);
   border-radius: 10px;
-  border: 2px solid #000000;
+  border: 2px solid #0f0f0f;
 }
 
 ::-webkit-scrollbar-thumb:hover {

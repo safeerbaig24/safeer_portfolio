@@ -120,7 +120,7 @@
   height: 1rem;
   border-radius: 50%;
   background: #10b981;
-  border: 4px solid #000000;
+  border: 4px solid #0f0f0f;
   box-shadow: 0 0 20px rgba(16, 185, 129, 0.5);
   z-index: 10;
 }
@@ -136,7 +136,7 @@
   position: relative;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(40, 40, 40, 0.8);
   border: 1px solid rgba(16, 185, 129, 0.2);
   border-radius: 1rem;
   padding: 1.5rem;
@@ -174,11 +174,7 @@
   margin-bottom: 1rem;
 }
 
-.experience-card-header-right {
-  align-items: flex-end;
-  text-align: right;
-}
-
+.experience-card-header-right,
 .experience-card-header-left {
   align-items: flex-start;
   text-align: left;
@@ -250,10 +246,7 @@
   gap: 0.75rem;
 }
 
-.experience-description-right {
-  text-align: right;
-}
-
+.experience-description-right,
 .experience-description-left {
   text-align: left;
 }
@@ -277,12 +270,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  justify-content: flex-start;
 }
 
-.experience-skills-right {
-  justify-content: flex-end;
-}
-
+.experience-skills-right,
 .experience-skills-left {
   justify-content: flex-start;
 }
@@ -291,7 +282,7 @@
   padding: 0.25rem 0.75rem;
   font-size: 0.75rem;
   font-family: 'Courier New', monospace;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(35, 35, 35, 0.75);
   border: 1px solid rgba(16, 185, 129, 0.2);
   border-radius: 9999px;
   color: rgba(16, 185, 129, 0.8);
@@ -314,7 +305,7 @@
 }
 
 .experience-date-badge-content {
-  background: #000000;
+  background: rgba(30, 30, 30, 0.95);
   border: 1px solid rgba(16, 185, 129, 0.3);
   border-radius: 9999px;
   padding: 0.5rem 1rem;
@@ -336,19 +327,20 @@
     padding: 6rem 3rem;
   }
 
+  /* Timeline stays on left side, all cards on right with left-aligned content */
   .experience-timeline-line {
-    left: 50%;
-    transform: translateX(-50%);
+    left: 2rem;
+    transform: none;
   }
 
   .experience-timeline-dot {
-    left: 50%;
+    left: 2rem;
     transform: translate(-50%, -50%);
   }
 
   .experience-card-wrapper {
-    margin-left: 0;
-    width: calc(50% - 2rem);
+    margin-left: 4rem;
+    width: calc(100% - 4rem);
   }
 
   .experience-item {
@@ -356,20 +348,15 @@
     align-items: center;
   }
 
-  .experience-item-left {
+  .experience-item-left,
+  .experience-item-right {
     flex-direction: row;
   }
 
-  .experience-item-right {
-    flex-direction: row-reverse;
-  }
-
-  .experience-card-right {
-    padding-right: 2rem;
-  }
-
+  .experience-card-right,
   .experience-card-left {
     padding-left: 2rem;
+    padding-right: 0;
   }
 
   .experience-date-badge {

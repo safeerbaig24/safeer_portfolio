@@ -36,7 +36,6 @@ const About = () => {
           <div className="about-image">
             <div className="image-wrapper">
               <img src="https://i.postimg.cc/Z5QfJ99N/profile-pic.png" alt="Safeer Baig" className="profile-image" />
-              <div className="image-overlay"></div>
             </div>
           </div>
         </div>
